@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GES Accounting System — Integrated Accounting Module | Ilham Nur</title>
+  <meta name="description" content="GES Accounting System case study — an integrated Laravel-based accounting module with Chart of Account, automatic journals, and financial reporting. Built by Ilham Nur." />
+  <meta name="keywords" content="GES Accounting System, Accounting Laravel, Chart of Account, Automatic Journal, REST API, Backend Developer" />
+  <meta property="og:title"       content="GES Accounting System — Integrated Accounting Module" />
+  <meta property="og:description" content="GES Accounting System case study by Ilham Nur — Backend Developer at PT. Global Inovasi Amerta." />
+  <meta property="og:type"        content="website" />
+  <meta property="og:image"       content="../assets/img/ges/chart-of-account.png" />
+  <link rel="icon" href="../assets/img/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="../assets/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar" role="navigation">
+  <div class="nav-inner">
+    <a class="nav-logo" href="../index.html">IN<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="../index.html#home">Home</a></li>
+      <li><a href="../index.html#about">About</a></li>
+      <li><a href="../index.html#expertise">Skills</a></li>
+      <li><a href="../index.html#projects" class="active">Projects</a></li>
+      <li><a href="../index.html#experience">Experience</a></li>
+      <li><a href="../index.html#contact">Contact</a></li>
+      <li><a href="../assets/cv/Ilham-Nur-CV.pdf" class="nav-cv" download>⬇ Download CV</a></li>
+      <li class="nav-lang" aria-label="Language selector">
+        <button type="button" class="lang-btn active" data-lang-option="en">EN</button>
+        <button type="button" class="lang-btn" data-lang-option="id">ID</button>
+      </li>
+    </ul>
+    <button class="nav-hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+<nav class="nav-mobile">
+  <a href="../index.html#home">Home</a>
+  <a href="../index.html#about">About</a>
+  <a href="../index.html#expertise">Skills</a>
+  <a href="../index.html#projects">Projects</a>
+  <a href="../index.html#experience">Experience</a>
+  <a href="../index.html#contact">Contact</a>
+  <a href="../assets/cv/Ilham-Nur-CV.pdf" class="nav-cv" download>⬇ Download CV</a>
+  <div class="nav-lang nav-lang-mobile" aria-label="Language selector">
+    <button type="button" class="lang-btn active" data-lang-option="en">EN</button>
+    <button type="button" class="lang-btn" data-lang-option="id">ID</button>
+  </div>
+</nav>
+
+<!-- DETAIL HERO -->
+<section class="detail-hero">
+  <div class="container">
+    <a href="../index.html#projects" class="detail-back">← Back to Projects</a>
+    <div class="detail-label">
+      <span class="badge badge-cyan">Integrated Accounting Module</span>
+    </div>
+    <h1 class="detail-title">GES Accounting System</h1>
+    <div class="detail-role-row">
+      <span class="detail-role">👤 Role: Backend Developer</span>
+      <span class="badge" style="background:rgba(255,255,255,0.12);color:rgba(255,255,255,0.8);border:1px solid rgba(255,255,255,0.2);">PT. Global Inovasi Amerta</span>
+    </div>
+    <div class="detail-tech-row">
+      <span class="detail-tech-badge">Laravel</span>
+      <span class="detail-tech-badge">MySQL</span>
+      <span class="detail-tech-badge">Eloquent ORM</span>
+      <span class="detail-tech-badge">REST API</span>
+      <span class="detail-tech-badge">PHP</span>
+    </div>
+  </div>
+</section>
+
+<!-- SCREENSHOT -->
+<div class="container">
+  <div class="detail-screenshot">
+    <img src="../assets/img/ges/chart-of-account.png" alt="GES Accounting System Dashboard"
+         onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+    <div class="screenshot-placeholder" style="display:none;">
+      <div class="sph-icon">🖥</div>
+      <div class="sph-text">ges/chart-of-account.png — Screenshot will appear here</div>
+    </div>
+  </div>
+</div>
+
+<!-- BODY -->
+<div class="detail-body">
+  <div class="container">
+    <div class="detail-grid">
+
+      <!-- Main -->
+      <div>
+
+        <div class="detail-section reveal">
+          <div class="detail-section-title">📋 Project Overview</div>
+          <p class="detail-text">
+            GES Accounting System is an integrated Laravel-based accounting module that automatically
+            connects operational transactions with journals and financial reports. The system was built
+            as part of a larger business platform at PT. Global Inovasi Amerta, replacing inefficient
+            manual journal recording.
+          </p>
+        </div>
+
+        <div class="detail-section reveal">
+          <div class="detail-section-title">❗ Problem</div>
+          <p class="detail-text">
+            Operational transactions such as invoices, payments, debit notes, and credit notes need
+            to be recorded consistently in journals without repetitive manual input. Manual processes
+            are error-prone and cannot guarantee consistency between transaction data and generated
+            financial reports.
+          </p>
+        </div>
+
+        <div class="detail-section reveal">
+          <div class="detail-section-title">✅ Solution</div>
+          <p class="detail-text">
+            The accounting module generates automatic journals from different transaction types
+            and keeps financial data consistent in real time. Every transaction entered into the
+            system automatically triggers journal entry creation based on configured accounting
+            rules, without manual input from accounting staff.
+          </p>
+        </div>
+
+        <div class="detail-section reveal">
+          <div class="detail-section-title">👨‍💻 My Contribution</div>
+          <ul class="detail-list">
+            <li>Built a flexible Chart of Account (CoA) module</li>
+            <li>Created an automatic journal engine based on transaction types</li>
+            <li>Integrated invoice transactions into journal entries</li>
+            <li>Integrated payment transactions into journals in real time</li>
+            <li>Developed debit note and credit note modules</li>
+            <li>Built REST APIs for frontend consumption and integration with other systems</li>
+            <li>Optimized database queries for reporting performance</li>
+            <li>Collaborated with the UI/UX team and Project Manager</li>
+          </ul>
+        </div>
+
+        <div class="detail-section reveal">
+          <div class="detail-section-title">🔄 System Flow</div>
+          <div class="flow-steps">
+            <span class="flow-step">Transaction</span>
+            <span class="flow-arrow">→</span>
+            <span class="flow-step">Journal Entry</span>
+            <span class="flow-arrow">→</span>
+            <span class="flow-step">Ledger</span>
+            <span class="flow-arrow">→</span>
+            <span class="flow-step">Financial Report</span>
+          </div>
+        </div>
+
+        <div class="detail-section reveal">
+          <div class="detail-section-title">🗄 Database &amp; Architecture Highlight</div>
+          <p class="detail-text">
+            The accounting module architecture was designed using double-entry bookkeeping principles.
+            Every journal entry has balanced debit and credit pairs. The Chart of Account is designed
+            hierarchically with account types (Asset, Liability, Equity, Revenue, Expense) that support
+            automatic financial report generation. Queries were optimized using Eloquent eager loading
+            and proper indexes to support reporting with large transaction datasets.
+          </p>
+        </div>
+
+        <div class="detail-section reveal">
+          <div class="detail-section-title">📈 Result &amp; Impact</div>
+          <p class="detail-text">
+            Journal recording, previously handled manually, now happens automatically whenever a new
+            transaction is created. Financial data consistency improved significantly because there is
+            no longer a gap between operational data and accounting data. The accounting team can focus
+            on financial report analysis instead of manual data entry.
+          </p>
+        </div>
+
+        <!-- Gallery -->
+        <div class="detail-section reveal">
+          <div class="detail-section-title">🖼 Gallery Preview</div>
+          <div class="detail-gallery">
+            <figure class="gallery-item">
+              <a href="../assets/img/ges/chart-of-account.png" target="_blank" rel="noopener" class="gallery-link">
+                <img src="../assets/img/ges/chart-of-account.png" alt="GES Accounting chart of account screen" />
+              </a>
+              <figcaption class="gallery-caption">Chart of Account</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <a href="../assets/img/ges/general-jurnal.png" target="_blank" rel="noopener" class="gallery-link">
+                <img src="../assets/img/ges/general-jurnal.png" alt="GES Accounting general journal screen" />
+              </a>
+              <figcaption class="gallery-caption">General Journal</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <a href="../assets/img/ges/invoice-jurnal.png" target="_blank" rel="noopener" class="gallery-link">
+                <img src="../assets/img/ges/invoice-jurnal.png" alt="GES Accounting invoice journal screen" />
+              </a>
+              <figcaption class="gallery-caption">Invoice Journal</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <a href="../assets/img/ges/financial-report.png" target="_blank" rel="noopener" class="gallery-link">
+                <img src="../assets/img/ges/financial-report.png" alt="GES Accounting financial report screen" />
+              </a>
+              <figcaption class="gallery-caption">Financial Report</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <a href="../assets/img/ges/ges-login.png" target="_blank" rel="noopener" class="gallery-link">
+                <img src="../assets/img/ges/ges-login.png" alt="GES Accounting login screen" />
+              </a>
+              <figcaption class="gallery-caption">Login Page</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <!-- CTA -->
+        <div class="detail-cta reveal">
+          <div class="detail-cta-text">
+            <h3>Need an Accounting Module for Your System?</h3>
+            <p>I have experience building integrated accounting systems with Laravel.</p>
+          </div>
+          <div style="display:flex;gap:12px;flex-wrap:wrap;">
+            <a href="../index.html#contact" class="btn btn-primary">✉ Contact Me</a>
+            <a href="../index.html#projects" class="btn btn-ghost">← View Other Projects</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Sidebar -->
+      <div class="detail-sidebar">
+
+        <div class="sidebar-card reveal">
+          <div class="sidebar-card-title">📋 Key Features</div>
+          <div class="sidebar-features">
+            <span class="sidebar-feature">Chart of Account</span>
+            <span class="sidebar-feature">General journal</span>
+            <span class="sidebar-feature">Automatic journal</span>
+            <span class="sidebar-feature">Invoice journal</span>
+            <span class="sidebar-feature">Payment journal</span>
+            <span class="sidebar-feature">Debit note</span>
+            <span class="sidebar-feature">Credit note</span>
+            <span class="sidebar-feature">Financial report integration</span>
+          </div>
+        </div>
+
+        <div class="sidebar-card reveal">
+          <div class="sidebar-card-title">🛠 Tech Stack</div>
+          <div class="sidebar-tech-grid">
+            <span class="badge badge-cyan">Laravel</span>
+            <span class="badge">MySQL</span>
+            <span class="badge">Eloquent ORM</span>
+            <span class="badge">REST API</span>
+            <span class="badge">PHP</span>
+          </div>
+        </div>
+
+        <div class="sidebar-card reveal">
+          <div class="sidebar-card-title">🏢 Company</div>
+          <p style="font-size:0.85rem;color:var(--text-sub);">PT. Global Inovasi Amerta<br><span style="color:var(--text-muted);">Batam, 2024–2025</span></p>
+        </div>
+
+        <div class="sidebar-card reveal">
+          <div class="sidebar-card-title">👤 Role Detail</div>
+          <ul class="detail-list">
+            <li>Backend Developer</li>
+            <li>API Developer</li>
+            <li>Database Engineer</li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <p>© 2026 <strong>Ilham Nur</strong>. Built with HTML, CSS, and JavaScript.</p>
+  </div>
+</footer>
+
+<button class="back-to-top" aria-label="Back to top">↑</button>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>

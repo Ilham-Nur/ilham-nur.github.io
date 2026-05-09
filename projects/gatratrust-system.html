@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gatratrust System — Business Administration System | Ilham Nur</title>
+  <meta name="description" content="Gatratrust System case study — a Laravel-based business administration system covering quotations, invoices, purchase orders, and approval workflows. Built by Ilham Nur." />
+  <meta name="keywords" content="Gatratrust System, Business Administration, Laravel, Quotation, Invoice, Purchase Order, Approval Workflow" />
+  <meta property="og:title"       content="Gatratrust System — Business Administration System" />
+  <meta property="og:description" content="Gatratrust System case study by Ilham Nur — Fullstack Developer & System Analyst." />
+  <meta property="og:type"        content="website" />
+  <meta property="og:image"       content="../assets/img/gatra/dashboard-gatra.png" />
+  <link rel="icon" href="../assets/img/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="../assets/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar" role="navigation">
+  <div class="nav-inner">
+    <a class="nav-logo" href="../index.html">IN<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="../index.html#home">Home</a></li>
+      <li><a href="../index.html#about">About</a></li>
+      <li><a href="../index.html#expertise">Skills</a></li>
+      <li><a href="../index.html#projects" class="active">Projects</a></li>
+      <li><a href="../index.html#experience">Experience</a></li>
+      <li><a href="../index.html#contact">Contact</a></li>
+      <li><a href="../assets/cv/Ilham-Nur-CV.pdf" class="nav-cv" download>⬇ Download CV</a></li>
+      <li class="nav-lang" aria-label="Language selector">
+        <button type="button" class="lang-btn active" data-lang-option="en">EN</button>
+        <button type="button" class="lang-btn" data-lang-option="id">ID</button>
+      </li>
+    </ul>
+    <button class="nav-hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+<nav class="nav-mobile">
+  <a href="../index.html#home">Home</a>
+  <a href="../index.html#about">About</a>
+  <a href="../index.html#expertise">Skills</a>
+  <a href="../index.html#projects">Projects</a>
+  <a href="../index.html#experience">Experience</a>
+  <a href="../index.html#contact">Contact</a>
+  <a href="../assets/cv/Ilham-Nur-CV.pdf" class="nav-cv" download>⬇ Download CV</a>
+  <div class="nav-lang nav-lang-mobile" aria-label="Language selector">
+    <button type="button" class="lang-btn active" data-lang-option="en">EN</button>
+    <button type="button" class="lang-btn" data-lang-option="id">ID</button>
+  </div>
+</nav>
+
+<!-- DETAIL HERO -->
+<section class="detail-hero">
+  <div class="container">
+    <a href="../index.html#projects" class="detail-back">← Back to Projects</a>
+    <div class="detail-label">
+      <span class="badge badge-cyan">Business Administration System</span>
+    </div>
+    <h1 class="detail-title">Gatratrust System</h1>
+    <div class="detail-role-row">
+      <span class="detail-role">👤 Role: Fullstack Developer &amp; System Analyst</span>
+      <span class="badge badge-navy">Production</span>
+    </div>
+    <div class="detail-tech-row">
+      <span class="detail-tech-badge">Laravel</span>
+      <span class="detail-tech-badge">MySQL</span>
+      <span class="detail-tech-badge">Blade</span>
+      <span class="detail-tech-badge">jQuery</span>
+    </div>
+  </div>
+</section>
+
+<!-- SCREENSHOT -->
+<div class="container">
+  <div class="detail-screenshot">
+    <img src="../assets/img/gatra/dashboard-gatra.png" alt="Gatratrust System Dashboard"
+         onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+    <div class="screenshot-placeholder" style="display:none;">
+      <div class="sph-icon">🖥</div>
+      <div class="sph-text">gatra/dashboard-gatra.png — Screenshot will appear here</div>
+    </div>
+  </div>
+</div>
+
+<!-- BODY -->
+<div class="detail-body">
+  <div class="container">
+    <div class="detail-grid">
+
+      <!-- Main -->
+      <div>
+
+        <div class="detail-section reveal">
+          <div class="detail-section-title">📋 Project Overview</div>
+          <p class="detail-text">
+            Gatratrust System is a Laravel-based business administration application for managing
+            quotations, invoices, purchase orders, and company operational documents. The system
+            is designed to speed up administrative workflows and ensure every document follows
+            a structured approval flow.
+          </p>
+        </div>
+
+        <div class="detail-section reveal">
+          <div class="detail-section-title">❗ Problem</div>
+          <p class="detail-text">
+            Business administration requires document flows that are consistent, structured, and
+            easy to track so operations can run more efficiently. Without an integrated system,
+            creating quotations, invoices, and purchase orders can lead to data inconsistencies
+            and duplicated work.
+          </p>
+        </div>
+
+        <div class="detail-section reveal">
+          <div class="detail-section-title">✅ Solution</div>
+          <p class="detail-text">
+            The system helps teams input client data, create quotations, invoices, purchase orders,
+            and print-ready documents through a clear approval flow. Each document status can be
+            tracked, and the output is ready to send to clients.
+          </p>
+        </div>
+
+        <div class="detail-section reveal">
+          <div class="detail-section-title">👨‍💻 My Contribution</div>
+          <ul class="detail-list">
+            <li>Analyzed client business requirements directly</li>
+            <li>Defined and designed administrative document flows</li>
+            <li>Designed databases and relationships across tables</li>
+            <li>Developed the quotation module with automatic calculations</li>
+            <li>Developed invoice and purchase order modules</li>
+            <li>Built a multi-level approval system</li>
+            <li>Created print-ready document output (PDF)</li>
+          </ul>
+        </div>
+
+        <div class="detail-section reveal">
+          <div class="detail-section-title">🔄 System Flow</div>
+          <div class="flow-steps">
+            <span class="flow-step">Client Data</span>
+            <span class="flow-arrow">→</span>
+            <span class="flow-step">Quotation</span>
+            <span class="flow-arrow">→</span>
+            <span class="flow-step">Approval</span>
+            <span class="flow-arrow">→</span>
+            <span class="flow-step">Invoice / PO</span>
+            <span class="flow-arrow">→</span>
+            <span class="flow-step">Printable Doc</span>
+          </div>
+        </div>
+
+        <div class="detail-section reveal">
+          <div class="detail-section-title">🗄 Database &amp; Architecture Highlight</div>
+          <p class="detail-text">
+            The database was designed around relationships between client entities, quotation
+            documents, invoices, and purchase orders. Every document has trackable versions and
+            statuses. The approval system is modular, making it easy to configure for different
+            document types. Document templates are stored in the system and can be regenerated
+            at any time.
+          </p>
+        </div>
+
+        <div class="detail-section reveal">
+          <div class="detail-section-title">📈 Result &amp; Impact</div>
+          <p class="detail-text">
+            The quotation process, previously handled manually in spreadsheets, can now be completed
+            in minutes with automatic calculations. The approval flow is transparent, every change
+            can be clearly tracked, and document outputs are ready to print or send by email.
+          </p>
+        </div>
+
+        <!-- Gallery -->
+        <div class="detail-section reveal">
+          <div class="detail-section-title">🖼 Gallery Preview</div>
+          <div class="detail-gallery">
+            <figure class="gallery-item">
+              <a href="../assets/img/gatra/dashboard-gatra.png" target="_blank" rel="noopener" class="gallery-link">
+                <img src="../assets/img/gatra/dashboard-gatra.png" alt="Gatratrust dashboard screen" />
+              </a>
+              <figcaption class="gallery-caption">Dashboard</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <a href="../assets/img/gatra/form-quotation.png" target="_blank" rel="noopener" class="gallery-link">
+                <img src="../assets/img/gatra/form-quotation.png" alt="Gatratrust quotation form screen" />
+              </a>
+              <figcaption class="gallery-caption">Quotation Form</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <a href="../assets/img/gatra/list-invoice.png" target="_blank" rel="noopener" class="gallery-link">
+                <img src="../assets/img/gatra/list-invoice.png" alt="Gatratrust invoice list screen" />
+              </a>
+              <figcaption class="gallery-caption">Invoice List</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <a href="../assets/img/gatra/output-dokumen.png" target="_blank" rel="noopener" class="gallery-link">
+                <img src="../assets/img/gatra/output-dokumen.png" alt="Gatratrust document output screen" />
+              </a>
+              <figcaption class="gallery-caption">Document Output</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <a href="../assets/img/gatra/login-gatra.png" target="_blank" rel="noopener" class="gallery-link">
+                <img src="../assets/img/gatra/login-gatra.png" alt="Gatratrust login screen" />
+              </a>
+              <figcaption class="gallery-caption">Login Page</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <!-- CTA -->
+        <div class="detail-cta reveal">
+          <div class="detail-cta-text">
+            <h3>Need a Business Administration System?</h3>
+            <p>I can build a system tailored to your company workflow.</p>
+          </div>
+          <div style="display:flex;gap:12px;flex-wrap:wrap;">
+            <a href="../index.html#contact" class="btn btn-primary">✉ Contact Me</a>
+            <a href="../index.html#projects" class="btn btn-ghost">← View Other Projects</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Sidebar -->
+      <div class="detail-sidebar">
+
+        <div class="sidebar-card reveal">
+          <div class="sidebar-card-title">📋 Key Features</div>
+          <div class="sidebar-features">
+            <span class="sidebar-feature">Client data management</span>
+            <span class="sidebar-feature">Quotation management</span>
+            <span class="sidebar-feature">Invoice management</span>
+            <span class="sidebar-feature">Purchase Order</span>
+            <span class="sidebar-feature">Approval workflow</span>
+            <span class="sidebar-feature">Document output / print</span>
+          </div>
+        </div>
+
+        <div class="sidebar-card reveal">
+          <div class="sidebar-card-title">🛠 Tech Stack</div>
+          <div class="sidebar-tech-grid">
+            <span class="badge badge-cyan">Laravel</span>
+            <span class="badge">MySQL</span>
+            <span class="badge">Blade</span>
+            <span class="badge">jQuery</span>
+            <span class="badge">PHP</span>
+          </div>
+        </div>
+
+        <div class="sidebar-card reveal">
+          <div class="sidebar-card-title">👤 Role Detail</div>
+          <ul class="detail-list">
+            <li>System Analyst</li>
+            <li>Backend Developer</li>
+            <li>Frontend Developer</li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <p>© 2026 <strong>Ilham Nur</strong>. Built with HTML, CSS, and JavaScript.</p>
+  </div>
+</footer>
+
+<button class="back-to-top" aria-label="Back to top">↑</button>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>

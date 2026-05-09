@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ilham Nur — Fullstack Laravel Developer & System Analyst | Batam</title>
+  <meta name="description" content="Ilham Nur portfolio — Fullstack Laravel Developer & System Analyst based in Batam. Experienced in building ERP, administration systems, accounting modules, and approval workflows from analysis to deployment." />
+  <meta name="keywords" content="Laravel Developer, System Analyst, ERP, Fullstack Developer, Batam, PHP, MySQL, REST API, Web Developer" />
+  <meta property="og:title"       content="Ilham Nur — Fullstack Laravel Developer & System Analyst" />
+  <meta property="og:description" content="Professional portfolio of Ilham Nur. Laravel, ERP systems, business administration, accounting modules, Batam." />
+  <meta property="og:type"        content="website" />
+  <meta property="og:image"       content="assets/img/profile.png" />
+  <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════
+     NAVBAR
+═══════════════════════════════════════════ -->
+<nav class="navbar" role="navigation" aria-label="Main navigation">
+  <div class="nav-inner">
+    <a class="nav-logo" href="#home">IN<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="#home"       class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#expertise">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="assets/cv/Ilham-Nur-CV.pdf" class="nav-cv" download>⬇ Download CV</a></li>
+      <li class="nav-lang" aria-label="Language selector">
+        <button type="button" class="lang-btn active" data-lang-option="en">EN</button>
+        <button type="button" class="lang-btn" data-lang-option="id">ID</button>
+      </li>
+    </ul>
+    <button class="nav-hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<nav class="nav-mobile" aria-label="Mobile navigation">
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#expertise">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#experience">Experience</a>
+  <a href="#contact">Contact</a>
+  <a href="assets/cv/Ilham-Nur-CV.pdf" class="nav-cv" download>⬇ Download CV</a>
+  <div class="nav-lang nav-lang-mobile" aria-label="Language selector">
+    <button type="button" class="lang-btn active" data-lang-option="en">EN</button>
+    <button type="button" class="lang-btn" data-lang-option="id">ID</button>
+  </div>
+</nav>
+
+<!-- ═══════════════════════════════════════════
+     HERO
+═══════════════════════════════════════════ -->
+<section class="hero" id="home">
+  <div class="container">
+    <div class="hero-inner">
+
+      <!-- Left: Text -->
+      <div class="hero-left">
+        <div class="hero-tag">
+          <span class="dot"></span> Available for Projects
+        </div>
+        <h1 class="hero-title">Hi, I'm<br><span class="accent">Ilham Nur</span></h1>
+        <p class="hero-role">Fullstack Laravel Developer &amp; System Analyst</p>
+        <p class="hero-desc">
+          I build Laravel-based business applications such as ERP, administration systems, invoices,
+          purchase orders, accounting modules, and approval workflows from analysis and database design
+          through development and VPS deployment.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">📂 View Projects</a>
+          <a href="assets/cv/Ilham-Nur-CV.pdf" class="btn btn-outline" download>⬇ Download CV</a>
+          <a href="#contact" class="btn btn-outline">✉ Contact Me</a>
+        </div>
+        <div class="hero-stats">
+          <div>
+            <div class="hero-stat-num">
+              <span class="counter" data-target="2" data-suffix="+">0+</span>
+            </div>
+            <div class="hero-stat-label">Years Experience</div>
+          </div>
+          <div>
+            <div class="hero-stat-num">
+              <span class="counter" data-target="4" data-suffix="+">0+</span>
+            </div>
+            <div class="hero-stat-label">Projects Delivered</div>
+          </div>
+          <div>
+            <div class="hero-stat-num">
+              <span class="counter" data-target="3" data-suffix="">0</span>
+            </div>
+            <div class="hero-stat-label">Companies</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Dashboard Mockup -->
+      <div class="hero-visual">
+        <div style="position:relative;">
+          <div class="hero-float-badge top-left">
+            <span class="fbi">🗄</span> MySQL ERD Design
+          </div>
+          <div class="hero-dashboard">
+            <div class="dash-header">
+              <div class="dash-dots">
+                <span></span><span></span><span></span>
+              </div>
+              <span class="dash-title">erp-dashboard.laravel</span>
+            </div>
+            <div class="dash-grid">
+              <div class="dash-card">
+                <div class="dash-card-icon">🏢</div>
+                <div class="dash-card-label">ERP System</div>
+                <div class="dash-card-sub">Requests · Projects · Invoices</div>
+              </div>
+              <div class="dash-card">
+                <div class="dash-card-icon">🗃</div>
+                <div class="dash-card-label">Database Design</div>
+                <div class="dash-card-sub">ERD · Relationships · Normalization</div>
+              </div>
+              <div class="dash-card">
+                <div class="dash-card-icon">✅</div>
+                <div class="dash-card-label">Approval Workflow</div>
+                <div class="dash-card-sub">Multi-role · Status tracking</div>
+              </div>
+              <div class="dash-card">
+                <div class="dash-card-icon">⚙</div>
+                <div class="dash-card-label">Laravel Backend</div>
+                <div class="dash-card-sub">REST API · RBAC · ORM</div>
+              </div>
+            </div>
+            <div class="dash-bottom">
+              <div class="dash-bottom-icon">🚀</div>
+              <div>
+                <div class="dash-bottom-text">VPS Deployment</div>
+                <div class="dash-bottom-sub">Nginx · Linux · Production ready</div>
+              </div>
+            </div>
+          </div>
+          <div class="hero-float-badge bottom-right">
+            <span class="fbi">🔐</span> RBAC Implemented
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     ABOUT
+═══════════════════════════════════════════ -->
+<section class="about section" id="about">
+  <div class="container">
+    <div class="about-inner">
+
+      <div class="about-img-wrap reveal">
+        <div class="about-img-box">
+          <img src="assets/img/profile.png" alt="Profile photo of Ilham Nur — Fullstack Laravel Developer"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+          <div class="about-img-placeholder" style="display:none;">
+            <div class="pi-icon">👨‍💻</div>
+            <div class="pi-text">profile.png</div>
+          </div>
+        </div>
+        <div class="about-accent">
+          <div class="num">2<span style="color:var(--navy)">+</span></div>
+          <div class="lbl">Years Dev</div>
+        </div>
+      </div>
+
+      <div class="reveal">
+        <span class="section-label">👤 About Me</span>
+        <h2 class="section-title">A Developer Who Thinks Like an Analyst</h2>
+        <p style="margin-bottom:18px;">
+          I am a Laravel-focused developer experienced in building enterprise systems such as ERP,
+          business administration systems, invoices, purchase orders, accounting modules, and approval workflows.
+          I work across requirement analysis, database design, backend/frontend development,
+          and VPS deployment.
+        </p>
+        <p>
+          Based in Batam, Riau Islands, I do more than write code: I understand business flows,
+          design efficient ERDs, and make sure the systems I build solve real user needs.
+        </p>
+        <div class="about-highlights">
+          <div class="about-hl">
+            <div class="about-hl-icon">📅</div>
+            <div class="about-hl-text">2+ Years Web Development Experience</div>
+          </div>
+          <div class="about-hl">
+            <div class="about-hl-icon">🛠</div>
+            <div class="about-hl-text">Laravel &amp; MySQL Specialist</div>
+          </div>
+          <div class="about-hl">
+            <div class="about-hl-icon">🏢</div>
+            <div class="about-hl-text">ERP &amp; Business System Development</div>
+          </div>
+          <div class="about-hl">
+            <div class="about-hl-icon">🧠</div>
+            <div class="about-hl-text">System Analysis Mindset</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     CORE EXPERTISE
+═══════════════════════════════════════════ -->
+<section class="expertise section" id="expertise">
+  <div class="container">
+    <div class="section-header text-center">
+      <span class="section-label">💡 Core Expertise</span>
+      <h2 class="section-title">What I Do Best</h2>
+      <p class="section-sub">From business analysis to deployment, I manage the full system development lifecycle.</p>
+    </div>
+    <div class="expertise-grid">
+
+      <div class="exp-card reveal">
+        <div class="exp-icon">📋</div>
+        <h3 class="exp-title">Business &amp; System Analysis</h3>
+        <ul class="exp-list">
+          <li class="exp-item">Requirement analysis</li>
+          <li class="exp-item">Business flow mapping</li>
+          <li class="exp-item">System flow design</li>
+          <li class="exp-item">Approval workflow</li>
+        </ul>
+      </div>
+
+      <div class="exp-card reveal">
+        <div class="exp-icon">⚙</div>
+        <h3 class="exp-title">Backend Development</h3>
+        <ul class="exp-list">
+          <li class="exp-item">Laravel</li>
+          <li class="exp-item">REST API</li>
+          <li class="exp-item">Eloquent ORM</li>
+          <li class="exp-item">Authentication &amp; RBAC</li>
+        </ul>
+      </div>
+
+      <div class="exp-card reveal">
+        <div class="exp-icon">🗄</div>
+        <h3 class="exp-title">Database Architecture</h3>
+        <ul class="exp-list">
+          <li class="exp-item">MySQL</li>
+          <li class="exp-item">ERD design</li>
+          <li class="exp-item">Relational database</li>
+          <li class="exp-item">Query optimization</li>
+        </ul>
+      </div>
+
+      <div class="exp-card reveal">
+        <div class="exp-icon">🚀</div>
+        <h3 class="exp-title">Deployment &amp; Maintenance</h3>
+        <ul class="exp-list">
+          <li class="exp-item">VPS &amp; Linux</li>
+          <li class="exp-item">Nginx</li>
+          <li class="exp-item">Git / GitHub / GitLab</li>
+          <li class="exp-item">Production deployment</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     PROJECTS
+═══════════════════════════════════════════ -->
+<section class="projects section" id="projects">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">📂 Featured Projects</span>
+      <h2 class="section-title">Projects I Have Built</h2>
+      <p class="section-sub">Enterprise systems and business applications developed from analysis to production.</p>
+    </div>
+    <div class="projects-grid">
+
+      <!-- Geotama System -->
+      <div class="project-card reveal">
+        <div class="project-img">
+          <img src="assets/img/geotama/dashboard.png" alt="Geotama System — ERP-like Dashboard Screenshot"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+          <div class="project-img-placeholder" style="display:none;">
+            <div class="pip-icon">🏢</div>
+            <div class="pip-text">Geotama dashboard screenshot</div>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-label">
+            <span class="badge badge-cyan">ERP-like Management System</span>
+          </div>
+          <h3 class="project-title">Geotama System</h3>
+          <p class="project-role"><strong>Role:</strong> Fullstack Developer &amp; System Analyst</p>
+          <p class="project-desc">
+            A Laravel-based management system for requests, projects, invoices, payments, and approval workflows.
+          </p>
+          <div class="project-tech">
+            <span class="badge">Laravel</span>
+            <span class="badge">MySQL</span>
+            <span class="badge">Blade</span>
+            <span class="badge">jQuery</span>
+            <span class="badge">REST API</span>
+            <span class="badge">VPS</span>
+          </div>
+          <div class="project-features">
+            <div class="project-features-title">Key Features</div>
+            <div class="project-feature-list">
+              <span class="feature-tag">Request Mgmt</span>
+              <span class="feature-tag">Project Mgmt</span>
+              <span class="feature-tag">Invoice &amp; Payment</span>
+              <span class="feature-tag">RBAC</span>
+              <span class="feature-tag">PDF Export</span>
+              <span class="feature-tag">Approval Workflow</span>
+            </div>
+          </div>
+          <div class="project-footer">
+            <a href="projects/geotama-system.html" class="btn btn-primary btn-sm">📋 View Case Study</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Gatratrust System -->
+      <div class="project-card reveal">
+        <div class="project-img">
+          <img src="assets/img/gatra/dashboard-gatra.png" alt="Gatratrust System — Business Administration Screenshot"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+          <div class="project-img-placeholder" style="display:none;">
+            <div class="pip-icon">📄</div>
+            <div class="pip-text">Gatratrust dashboard screenshot</div>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-label">
+            <span class="badge badge-cyan">Business Administration System</span>
+          </div>
+          <h3 class="project-title">Gatratrust System</h3>
+          <p class="project-role"><strong>Role:</strong> Fullstack Developer &amp; System Analyst</p>
+          <p class="project-desc">
+            A business administration system for managing quotations, invoices, purchase orders, and operational documents.
+          </p>
+          <div class="project-tech">
+            <span class="badge">Laravel</span>
+            <span class="badge">MySQL</span>
+            <span class="badge">Blade</span>
+            <span class="badge">jQuery</span>
+          </div>
+          <div class="project-features">
+            <div class="project-features-title">Key Features</div>
+            <div class="project-feature-list">
+              <span class="feature-tag">Quotation</span>
+              <span class="feature-tag">Invoice</span>
+              <span class="feature-tag">Purchase Order</span>
+              <span class="feature-tag">Document Flow</span>
+              <span class="feature-tag">Approval System</span>
+            </div>
+          </div>
+          <div class="project-footer">
+            <a href="projects/gatratrust-system.html" class="btn btn-primary btn-sm">📋 View Case Study</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- GES Accounting -->
+      <div class="project-card reveal">
+        <div class="project-img">
+          <img src="assets/img/ges/chart-of-account.png" alt="GES Accounting System — Accounting Module Screenshot"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+          <div class="project-img-placeholder" style="display:none;">
+            <div class="pip-icon">📊</div>
+            <div class="pip-text">GES accounting screenshot</div>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-label">
+            <span class="badge badge-cyan">Integrated Accounting Module</span>
+          </div>
+          <h3 class="project-title">GES Accounting System</h3>
+          <p class="project-role"><strong>Role:</strong> Backend Developer</p>
+          <p class="project-desc">
+            An integrated accounting module for Chart of Account, automatic journals, and transaction-based financial reports.
+          </p>
+          <div class="project-tech">
+            <span class="badge">Laravel</span>
+            <span class="badge">MySQL</span>
+            <span class="badge">Eloquent ORM</span>
+            <span class="badge">REST API</span>
+          </div>
+          <div class="project-features">
+            <div class="project-features-title">Key Features</div>
+            <div class="project-feature-list">
+              <span class="feature-tag">Chart of Account</span>
+              <span class="feature-tag">Auto Journal</span>
+              <span class="feature-tag">Invoice Journal</span>
+              <span class="feature-tag">Payment Journal</span>
+              <span class="feature-tag">Debit/Credit Note</span>
+            </div>
+          </div>
+          <div class="project-footer">
+            <a href="projects/ges-accounting-system.html" class="btn btn-primary btn-sm">📋 View Case Study</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Financial Monitoring -->
+      <div class="project-card reveal">
+        <div class="project-img project-img-empty">
+          <div class="project-img-placeholder">
+            <div class="pip-icon">📈</div>
+            <div class="pip-text">Preview Coming Soon</div>
+            <div class="pip-sub">Financial monitoring dashboard</div>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-label">
+            <span class="badge">Final Project / Thesis</span>
+          </div>
+          <h3 class="project-title">Financial Monitoring System</h3>
+          <p class="project-role"><strong>Role:</strong> Fullstack Developer</p>
+          <p class="project-desc">
+            A financial monitoring system for a Lion Parcel logistics agent with daily and monthly transaction report visualizations.
+          </p>
+          <div class="project-tech">
+            <span class="badge">Laravel</span>
+            <span class="badge">MySQL</span>
+            <span class="badge">Chart.js</span>
+          </div>
+          <div class="project-features">
+            <div class="project-features-title">Key Features</div>
+            <div class="project-feature-list">
+              <span class="feature-tag">Transaction Monitoring</span>
+              <span class="feature-tag">Daily Report</span>
+              <span class="feature-tag">Monthly Report</span>
+              <span class="feature-tag">Interactive Chart</span>
+            </div>
+          </div>
+          <div class="project-footer">
+            <span class="btn btn-outline btn-sm" style="opacity:0.6;cursor:default;">🔒 Coming Soon</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     EXPERIENCE
+═══════════════════════════════════════════ -->
+<section class="experience section" id="experience">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">💼 Experience</span>
+      <h2 class="section-title">Work Experience</h2>
+      <p class="section-sub">My development journey across companies and project-based work.</p>
+    </div>
+    <div class="timeline">
+
+      <div class="tl-item reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-card">
+          <div class="tl-header">
+            <h3 class="tl-title">Fullstack Developer &amp; System Analyst</h3>
+            <span class="tl-period">2024 — Present</span>
+          </div>
+          <div class="tl-company">Project-based / Independent</div>
+          <ul class="tl-list">
+            <li>Contributed to the development of Gatra Trust ERP and Geotama System applications.</li>
+            <li>Designed databases and relationships across system modules.</li>
+            <li>Defined application flows based on client business requirements.</li>
+            <li>Developed backend and frontend features using Laravel &amp; Blade.</li>
+            <li>Built document, invoice, approval, and PDF report features.</li>
+            <li>Handled deployment and maintenance on production VPS environments.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tl-item reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-card">
+          <div class="tl-header">
+            <h3 class="tl-title">Junior Backend Developer</h3>
+            <span class="tl-period">2024 — 2025</span>
+          </div>
+          <div class="tl-company">PT. Global Inovasi Amerta — Batam</div>
+          <ul class="tl-list">
+            <li>Built the Laravel-based GES Accounting System module.</li>
+            <li>Created Chart of Account, automatic journals, invoices, payments, debit notes, and credit notes.</li>
+            <li>Developed REST APIs and optimized database queries.</li>
+            <li>Collaborated with the UI/UX team and Project Manager.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tl-item reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-card">
+          <div class="tl-header">
+            <h3 class="tl-title">Web Developer Intern</h3>
+            <span class="tl-period">2023 — 2024</span>
+          </div>
+          <div class="tl-company">PT. Sat Nusapersada Tbk. — Batam</div>
+          <ul class="tl-list">
+            <li>Contributed to internal company web application development.</li>
+            <li>Handled enhancements and bug fixes for production applications.</li>
+            <li>Used GitLab and Trello for task tracking and team collaboration.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     SKILLS
+═══════════════════════════════════════════ -->
+<section class="skills section" id="skills">
+  <div class="container">
+    <div class="section-header text-center">
+      <span class="section-label">🛠 Tech Stack</span>
+      <h2 class="section-title">Skills &amp; Tools</h2>
+      <p class="section-sub">Technologies and tools I use throughout the development process.</p>
+    </div>
+    <div class="skills-grid">
+
+      <div class="skill-group reveal">
+        <div class="skill-group-header">
+          <div class="skill-group-icon">⚙</div>
+          <div class="skill-group-name">Backend</div>
+        </div>
+        <div class="skill-badges">
+          <span class="skill-badge">Laravel</span>
+          <span class="skill-badge">PHP</span>
+          <span class="skill-badge">REST API</span>
+          <span class="skill-badge">Eloquent ORM</span>
+          <span class="skill-badge">Migration</span>
+          <span class="skill-badge">Cron Job</span>
+        </div>
+      </div>
+
+      <div class="skill-group reveal">
+        <div class="skill-group-header">
+          <div class="skill-group-icon">🗄</div>
+          <div class="skill-group-name">Database</div>
+        </div>
+        <div class="skill-badges">
+          <span class="skill-badge">MySQL</span>
+          <span class="skill-badge">Database Design</span>
+          <span class="skill-badge">ERD</span>
+          <span class="skill-badge">Query Optimization</span>
+        </div>
+      </div>
+
+      <div class="skill-group reveal">
+        <div class="skill-group-header">
+          <div class="skill-group-icon">🎨</div>
+          <div class="skill-group-name">Frontend</div>
+        </div>
+        <div class="skill-badges">
+          <span class="skill-badge">HTML</span>
+          <span class="skill-badge">CSS</span>
+          <span class="skill-badge">JavaScript</span>
+          <span class="skill-badge">jQuery</span>
+          <span class="skill-badge">Blade Template</span>
+        </div>
+      </div>
+
+      <div class="skill-group reveal">
+        <div class="skill-group-header">
+          <div class="skill-group-icon">🚀</div>
+          <div class="skill-group-name">DevOps</div>
+        </div>
+        <div class="skill-badges">
+          <span class="skill-badge">VPS</span>
+          <span class="skill-badge">Linux</span>
+          <span class="skill-badge">Nginx</span>
+          <span class="skill-badge">Git</span>
+          <span class="skill-badge">GitHub</span>
+          <span class="skill-badge">GitLab</span>
+        </div>
+      </div>
+
+      <div class="skill-group reveal">
+        <div class="skill-group-header">
+          <div class="skill-group-icon">🧰</div>
+          <div class="skill-group-name">Tools</div>
+        </div>
+        <div class="skill-badges">
+          <span class="skill-badge">Postman</span>
+          <span class="skill-badge">Trello</span>
+          <span class="skill-badge">VS Code</span>
+          <span class="skill-badge">Electron JS</span>
+        </div>
+      </div>
+
+      <div class="skill-group reveal">
+        <div class="skill-group-header">
+          <div class="skill-group-icon">🧠</div>
+          <div class="skill-group-name">Analysis</div>
+        </div>
+        <div class="skill-badges">
+          <span class="skill-badge">System Analysis</span>
+          <span class="skill-badge">ERD Design</span>
+          <span class="skill-badge">Flow Design</span>
+          <span class="skill-badge">Requirement Analysis</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     CONTACT
+═══════════════════════════════════════════ -->
+<section class="contact section" id="contact">
+  <div class="container">
+    <div class="contact-inner">
+
+      <div>
+        <span class="section-label">📬 Contact</span>
+        <h2 class="section-title">Let's Collaborate</h2>
+        <p style="margin-bottom:8px;">
+          I am open to freelance, contract, and full-time opportunities. If you need a developer
+          who understands business systems from the ground up through deployment, let's talk.
+        </p>
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-item-icon">✉</div>
+            <div>
+              <div class="contact-item-label">Email</div>
+              <div class="contact-item-value">ilonoer26@gmail.com</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">📱</div>
+            <div>
+              <div class="contact-item-label">Phone / WhatsApp</div>
+              <div class="contact-item-value">0895-6035-02918</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">📍</div>
+            <div>
+              <div class="contact-item-label">Location</div>
+              <div class="contact-item-value">Batam, Riau Islands</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">🐙</div>
+            <div>
+              <div class="contact-item-label">GitHub</div>
+              <div class="contact-item-value">github.com/Ilham-Nur</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-cta-card reveal">
+        <h3 class="contact-cta-title">Contact Me Now</h3>
+        <p class="contact-cta-desc">
+          Choose the most convenient channel. I usually respond within 24 hours.
+        </p>
+        <div class="contact-cta-btns">
+          <a href="mailto:ilonoer26@gmail.com" class="cta-btn cta-btn-email">
+            <div class="cta-btn-icon">✉</div>
+            <div>
+              <div>Email Me</div>
+              <div class="cta-btn-label">ilonoer26@gmail.com</div>
+            </div>
+          </a>
+          <a href="https://wa.me/6289560350291" target="_blank" rel="noopener" class="cta-btn cta-btn-wa">
+            <div class="cta-btn-icon">💬</div>
+            <div>
+              <div>WhatsApp Me</div>
+              <div class="cta-btn-label">0895-6035-02918</div>
+            </div>
+          </a>
+          <a href="https://github.com/Ilham-Nur" target="_blank" rel="noopener" class="cta-btn cta-btn-gh">
+            <div class="cta-btn-icon">🐙</div>
+            <div>
+              <div>GitHub</div>
+              <div class="cta-btn-label">github.com/Ilham-Nur</div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     FOOTER
+═══════════════════════════════════════════ -->
+<footer class="footer">
+  <div class="container">
+    <p>© 2026 <strong>Ilham Nur</strong>. Built with HTML, CSS, and JavaScript.</p>
+  </div>
+</footer>
+
+<!-- Back to top -->
+<button class="back-to-top" aria-label="Back to top">↑</button>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Geotama System — ERP-like Management System | Ilham Nur</title>
+  <meta name="description" content="Geotama System case study — a Laravel-based ERP-like management system covering requests, projects, invoices, payments, and approval workflows. Built by Ilham Nur." />
+  <meta name="keywords" content="Geotama System, ERP Laravel, Fullstack Developer, System Analyst, Invoice System, Approval Workflow" />
+  <meta property="og:title"       content="Geotama System — ERP-like Management System" />
+  <meta property="og:description" content="Geotama System case study by Ilham Nur — Fullstack Developer & System Analyst." />
+  <meta property="og:type"        content="website" />
+  <meta property="og:image"       content="../assets/img/geotama/dashboard.png" />
+  <link rel="icon" href="../assets/img/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="../assets/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar" role="navigation">
+  <div class="nav-inner">
+    <a class="nav-logo" href="../index.html">IN<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="../index.html#home">Home</a></li>
+      <li><a href="../index.html#about">About</a></li>
+      <li><a href="../index.html#expertise">Skills</a></li>
+      <li><a href="../index.html#projects" class="active">Projects</a></li>
+      <li><a href="../index.html#experience">Experience</a></li>
+      <li><a href="../index.html#contact">Contact</a></li>
+      <li><a href="../assets/cv/Ilham-Nur-CV.pdf" class="nav-cv" download>⬇ Download CV</a></li>
+      <li class="nav-lang" aria-label="Language selector">
+        <button type="button" class="lang-btn active" data-lang-option="en">EN</button>
+        <button type="button" class="lang-btn" data-lang-option="id">ID</button>
+      </li>
+    </ul>
+    <button class="nav-hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+<nav class="nav-mobile">
+  <a href="../index.html#home">Home</a>
+  <a href="../index.html#about">About</a>
+  <a href="../index.html#expertise">Skills</a>
+  <a href="../index.html#projects">Projects</a>
+  <a href="../index.html#experience">Experience</a>
+  <a href="../index.html#contact">Contact</a>
+  <a href="../assets/cv/Ilham-Nur-CV.pdf" class="nav-cv" download>⬇ Download CV</a>
+  <div class="nav-lang nav-lang-mobile" aria-label="Language selector">
+    <button type="button" class="lang-btn active" data-lang-option="en">EN</button>
+    <button type="button" class="lang-btn" data-lang-option="id">ID</button>
+  </div>
+</nav>
+
+<!-- DETAIL HERO -->
+<section class="detail-hero">
+  <div class="container">
+    <a href="../index.html#projects" class="detail-back">← Back to Projects</a>
+    <div class="detail-label">
+      <span class="badge badge-cyan">ERP-like Management System</span>
+    </div>
+    <h1 class="detail-title">Geotama System</h1>
+    <div class="detail-role-row">
+      <span class="detail-role">👤 Role: Fullstack Developer &amp; System Analyst</span>
+      <span class="badge badge-navy">Production</span>
+    </div>
+    <div class="detail-tech-row">
+      <span class="detail-tech-badge">Laravel</span>
+      <span class="detail-tech-badge">MySQL</span>
+      <span class="detail-tech-badge">Blade</span>
+      <span class="detail-tech-badge">jQuery</span>
+      <span class="detail-tech-badge">REST API</span>
+      <span class="detail-tech-badge">VPS</span>
+      <span class="detail-tech-badge">Nginx</span>
+    </div>
+  </div>
+</section>
+
+<!-- SCREENSHOT -->
+<div class="container">
+  <div class="detail-screenshot">
+    <img src="../assets/img/geotama/dashboard.png" alt="Geotama System Dashboard"
+         onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+    <div class="screenshot-placeholder" style="display:none;">
+      <div class="sph-icon">🖥</div>
+      <div class="sph-text">geotama/dashboard.png — Screenshot will appear here</div>
+    </div>
+  </div>
+</div>
+
+<!-- BODY -->
+<div class="detail-body">
+  <div class="container">
+    <div class="detail-grid">
+
+      <!-- Main Content -->
+      <div>
+
+        <div class="detail-section reveal">
+          <div class="detail-section-title">📋 Project Overview</div>
+          <p class="detail-text">
+            Geotama System is a Laravel-based ERP-like management system built to help companies
+            manage request, project, invoice, payment, and approval workflows in one integrated
+            web platform.
+          </p>
+        </div>
+
+        <div class="detail-section reveal">
+          <div class="detail-section-title">❗ Problem</div>
+          <p class="detail-text">
+            Previously, business processes could be scattered across many manual documents, making
+            request, project, invoice, and payment status tracking inefficient. There was no unified
+            system connecting the flow from the initial request to final payment.
+          </p>
+        </div>
+
+        <div class="detail-section reveal">
+          <div class="detail-section-title">✅ Solution</div>
+          <p class="detail-text">
+            The system connects requests, projects, invoices, payments, and reporting in one
+            role-based application. Each user receives access based on their role, and every
+            status change is recorded in real time.
+          </p>
+        </div>
+
+        <div class="detail-section reveal">
+          <div class="detail-section-title">👨‍💻 My Contribution</div>
+          <ul class="detail-list">
+            <li>Analyzed business requirements and mapped system flows</li>
+            <li>Designed the system flow from request to reporting</li>
+            <li>Designed databases and relationships across modules using ERD</li>
+            <li>Developed the Laravel backend (models, controllers, services)</li>
+            <li>Developed a responsive Blade/jQuery frontend</li>
+            <li>Built invoice, payment tracking, and approval workflow features</li>
+            <li>Implemented PDF export for documents</li>
+            <li>Deployed to a production VPS (Linux + Nginx)</li>
+          </ul>
+        </div>
+
+        <div class="detail-section reveal">
+          <div class="detail-section-title">🔄 System Flow</div>
+          <div class="flow-steps">
+            <span class="flow-step">Request</span>
+            <span class="flow-arrow">→</span>
+            <span class="flow-step">Approval</span>
+            <span class="flow-arrow">→</span>
+            <span class="flow-step">Project</span>
+            <span class="flow-arrow">→</span>
+            <span class="flow-step">Invoice</span>
+            <span class="flow-arrow">→</span>
+            <span class="flow-step">Payment</span>
+            <span class="flow-arrow">→</span>
+            <span class="flow-step">Report</span>
+          </div>
+        </div>
+
+        <div class="detail-section reveal">
+          <div class="detail-section-title">🗄 Database &amp; Architecture Highlight</div>
+          <p class="detail-text">
+            The database was designed around multi-module relationships: request tables connect
+            to projects, projects connect to invoices, and invoices connect to payments. Every
+            transaction includes status tracking and a history log for audit trails. Role-based
+            access control (RBAC) is implemented at the Laravel middleware level to protect data.
+          </p>
+        </div>
+
+        <div class="detail-section reveal">
+          <div class="detail-section-title">📈 Result &amp; Impact</div>
+          <p class="detail-text">
+            The system successfully integrates the full business flow from request to payment
+            in one platform. Approval processes that were previously manual can now be tracked
+            in real time, and documents such as invoices can be generated directly as PDFs
+            without additional tools.
+          </p>
+        </div>
+
+        <!-- Gallery -->
+        <div class="detail-section reveal">
+          <div class="detail-section-title">🖼 Gallery Preview</div>
+          <div class="detail-gallery">
+            <figure class="gallery-item">
+              <a href="../assets/img/geotama/dashboard.png" target="_blank" rel="noopener" class="gallery-link">
+                <img src="../assets/img/geotama/dashboard.png" alt="Geotama dashboard overview screen" />
+              </a>
+              <figcaption class="gallery-caption">Dashboard Overview</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <a href="../assets/img/geotama/modul-invoice.png" target="_blank" rel="noopener" class="gallery-link">
+                <img src="../assets/img/geotama/modul-invoice.png" alt="Geotama invoice module screen" />
+              </a>
+              <figcaption class="gallery-caption">Invoice Module</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <a href="../assets/img/geotama/alur-sistem.png" target="_blank" rel="noopener" class="gallery-link">
+                <img src="../assets/img/geotama/alur-sistem.png" alt="Geotama system flow screen" />
+              </a>
+              <figcaption class="gallery-caption">System Flow</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <a href="../assets/img/geotama/export-pdf.png" target="_blank" rel="noopener" class="gallery-link">
+                <img src="../assets/img/geotama/export-pdf.png" alt="Geotama PDF export screen" />
+              </a>
+              <figcaption class="gallery-caption">PDF Export</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <a href="../assets/img/geotama/login-geotama.png" target="_blank" rel="noopener" class="gallery-link">
+                <img src="../assets/img/geotama/login-geotama.png" alt="Geotama login screen" />
+              </a>
+              <figcaption class="gallery-caption">Login Page</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <!-- CTA -->
+        <div class="detail-cta reveal">
+          <div class="detail-cta-text">
+            <h3>Interested in a Similar Project?</h3>
+            <p>I am open to discussing your business system needs.</p>
+          </div>
+          <div style="display:flex;gap:12px;flex-wrap:wrap;">
+            <a href="../index.html#contact" class="btn btn-primary">✉ Contact Me</a>
+            <a href="../index.html#projects" class="btn btn-ghost">← View Other Projects</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Sidebar -->
+      <div class="detail-sidebar">
+
+        <div class="sidebar-card reveal">
+          <div class="sidebar-card-title">📋 Key Features</div>
+          <div class="sidebar-features">
+            <span class="sidebar-feature">Request management</span>
+            <span class="sidebar-feature">Project management</span>
+            <span class="sidebar-feature">Invoice management</span>
+            <span class="sidebar-feature">Payment tracking</span>
+            <span class="sidebar-feature">Role-based access control</span>
+            <span class="sidebar-feature">PDF export</span>
+            <span class="sidebar-feature">Approval workflow</span>
+          </div>
+        </div>
+
+        <div class="sidebar-card reveal">
+          <div class="sidebar-card-title">🛠 Tech Stack</div>
+          <div class="sidebar-tech-grid">
+            <span class="badge badge-cyan">Laravel</span>
+            <span class="badge">MySQL</span>
+            <span class="badge">Blade</span>
+            <span class="badge">jQuery</span>
+            <span class="badge">REST API</span>
+            <span class="badge">VPS</span>
+            <span class="badge">Nginx</span>
+            <span class="badge">Linux</span>
+          </div>
+        </div>
+
+        <div class="sidebar-card reveal">
+          <div class="sidebar-card-title">👤 Role Detail</div>
+          <ul class="detail-list">
+            <li>System Analyst</li>
+            <li>Backend Developer</li>
+            <li>Frontend Developer</li>
+            <li>DevOps / Deployment</li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <p>© 2026 <strong>Ilham Nur</strong>. Built with HTML, CSS, and JavaScript.</p>
+  </div>
+</footer>
+
+<button class="back-to-top" aria-label="Back to top">↑</button>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
