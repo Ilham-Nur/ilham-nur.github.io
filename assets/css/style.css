@@ -771,6 +771,12 @@ p  { color: var(--text-sub); line-height: 1.75; }
   .section { padding: 72px 0; }
   .nav-links { display: none; }
   .nav-hamburger { display: flex; }
+  .hero {
+    min-height: auto;
+    align-items: flex-start;
+    padding-top: calc(var(--nav-h) + 42px);
+    padding-bottom: 72px;
+  }
   .projects-grid { grid-template-columns: 1fr; }
   .expertise-grid { grid-template-columns: 1fr; }
   .skills-grid { grid-template-columns: 1fr; }
